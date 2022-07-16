@@ -9,4 +9,6 @@ The data is stored in just a json file, which could be modified with puts or pos
 
 Also, React uses the legacy class based components rather than functional components which are much cleaner. However, the React CDN doesn't seem to do too well with functional components, either.
 
-The index.html just reads the data using the api and displays them in a regular HTML tabl.
+The index.html just reads the data using the api and displays them in a regular HTML table.
+
+There isn't much error handling and no automated tests as to save time in the implementation.
