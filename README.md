@@ -2,6 +2,8 @@
 
 This is a simple notification demo which has a node server and react client.
 
+My goal was to make things as simple as possible, not have to download all of React or download a bunch of things. I had considered just using Ajax and no React at all, but the React CDN seemed to be promising.
+
 The client-side uses the React CDN, which allows you to create react apps without having to create a webpack, babel and all the stuff that is normally required for a React App.
 Unfortunately, JSX doesn't work all that well with it, so I'm using just createElement. It's just a small demo that hopefully gets the point across.
 
